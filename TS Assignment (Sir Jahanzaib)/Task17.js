@@ -1,0 +1,11 @@
+"use strict";
+let guestList3 = ["Hassan", "Hussain", "Ahmad", "Ali", "Umar", "Usman"];
+console.log("Hello! I'm sorry. I can invite only two persons");
+console.log(`Hi ${guestList3.pop()}, I am sorry. I have to cancel your invitation. I can invite only two persons.`);
+console.log(`Hi ${guestList3.pop()}, I am sorry. I have to cancel your invitation. I can invite only two persons.`);
+console.log(`Hi ${guestList3.pop()}, I am sorry. I have to cancel your invitation. I can invite only two persons.`);
+console.log(`Hi ${guestList3.pop()}, I am sorry. I have to cancel your invitation. I can invite only two persons.`);
+console.log(`Hi ${guestList3[0]}! You are still invited to the dinner`);
+console.log(`Hi ${guestList3[1]}! You are still invited to the dinner`);
+guestList3.splice(0, 2);
+console.log(guestList3.length);

@@ -1,0 +1,16 @@
+"use strict";
+let guestList2 = ["Hassan", "Hussain", "Ahmad", "Ali", "Umar", "Usman"];
+console.log("Hello guys! we have arranged a bigger dinner table. So we are inviting three more guests.");
+guestList2.unshift("AbdulRehman");
+guestList2.splice(4, 0, "Asad");
+guestList2.push("Saim");
+console.log(`Assalamualaikum ${guestList2[0]} \n You are invited to a dinner at my house. Please confirm your availibility.`);
+console.log(`Assalamualaikum ${guestList2[1]} \n You are invited to a dinner at my house. Please confirm your availibility.`);
+console.log(`Assalamualaikum ${guestList2[2]} \n You are invited to a dinner at my house. Please confirm your availibility.`);
+console.log(`Assalamualaikum ${guestList2[3]} \n You are invited to a dinner at my house. Please confirm your availibility.`);
+console.log(`Assalamualaikum ${guestList2[4]} \n You are invited to a dinner at my house. Please confirm your availibility.`);
+console.log(`Assalamualaikum ${guestList2[5]} \n You are invited to a dinner at my house. Please confirm your availibility.`);
+console.log(`Assalamualaikum ${guestList2[6]} \n You are invited to a dinner at my house. Please confirm your availibility.`);
+console.log(`Assalamualaikum ${guestList2[7]} \n You are invited to a dinner at my house. Please confirm your availibility.`);
+console.log(`Assalamualaikum ${guestList2[8]} \n You are invited to a dinner at my house. Please confirm your availibility.`);
+console.log(guestList2);

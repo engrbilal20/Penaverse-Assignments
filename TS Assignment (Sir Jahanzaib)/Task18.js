@@ -1,0 +1,13 @@
+"use strict";
+let places = ["Al Makkah", "Madina", "Quds", "Singapur", "Dubai"];
+console.log(places);
+let cPlaces = places.slice();
+let rAlp = cPlaces.sort();
+console.log(rAlp);
+console.log(places);
+console.log(rAlp.reverse());
+console.log(places);
+console.log(places.reverse());
+console.log(places.reverse());
+console.log(places.sort());
+console.log(places.reverse());
